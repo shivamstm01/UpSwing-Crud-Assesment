@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <!-- Conditional Add Data link -->
-      <a class="nav-link" routerLink="/add-data" routerLinkActive="active" *ngIf="isActive('/add-data')">Add Data</a>
+      <a class="nav-link" routerLink="/add-data" routerLinkActive="active" *ngIf="isActive('/read-data')">Add Data</a>
       
       <!-- Conditional Read Data link -->
-      <a class="nav-link" routerLink="/read-data" routerLinkActive="active" *ngIf="isActive('/read-data')">Read Data</a>
+      <a class="nav-link" routerLink="/read-data" routerLinkActive="active" *ngIf="isActive('/add-data')">Read Data</a>
     </div>
   </div>
 </nav>
