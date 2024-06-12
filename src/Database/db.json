@@ -17,6 +17,12 @@
       "price": 200,
       "category": "Garments",
       "id": 3
+    },
+    {
+      "name": "Realme Narzo 50 pro",
+      "price": 150000,
+      "category": "Electronics",
+      "id": 4
     }
   ]
 }
