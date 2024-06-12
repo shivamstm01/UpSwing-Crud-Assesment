@@ -1,6 +1,11 @@
-# UpswingCrud
+
+
+# UpSwing CRUD Assessment Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+
+This project is a simple CRUD (Create, Read, Update, Delete) application built with Angular. It allows users to add, view, edit, and delete products stored in a local JSON database.
+
 
 ## Development server
 
