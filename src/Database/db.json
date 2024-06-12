@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "name": "Oppo",
+      "price": 200,
+      "category": "Electronics",
+      "id": 1
+    },
+    {
+      "name": "TaTa",
+      "price": 500000,
+      "category": "Electronics",
+      "id": 2
+    },
+    {
+      "name": "Puma",
+      "price": 200,
+      "category": "Garments",
+      "id": 3
+    }
+  ]
+}
