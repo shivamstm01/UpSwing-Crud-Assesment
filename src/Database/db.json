@@ -23,12 +23,6 @@
       "price": 150000,
       "category": "Electronics",
       "id": 4
-    },
-    {
-      "name": "Sprite",
-      "price": 45,
-      "category": "Drink/Food",
-      "id": 5
     }
   ]
 }

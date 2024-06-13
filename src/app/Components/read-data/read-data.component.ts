@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from 'src/app/Services/product.service';
 
+
 @Component({
   selector: 'app-read-data',
   templateUrl: './read-data.component.html',
@@ -8,7 +9,7 @@ import { ProductService } from 'src/app/Services/product.service';
 })
 export class ReadDataComponent implements OnInit {
   ProductData: any[] = []; // Array to hold the product data
-  searchTerm: string = ''; // Property to bind to the search input field
+  searchTerm: string = ''; // Property to bind to the search input field  
 
   constructor(private http: ProductService) { }
 

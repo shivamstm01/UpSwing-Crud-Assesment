@@ -11,6 +11,7 @@ import { ProductFilterPipe } from './Pipes/product-filter.pipe';
 import { TableModule } from 'primeng/table'; // Import TableModule from PrimeNG
 import { NgxChartsModule } from '@swimlane/ngx-charts'; // Import NgxChartsModule here
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts'; // Import NgxChartsModul
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule,ReactiveFormsModule,HttpClientModule,TableModule
+    AppRoutingModule,FormsModule,ReactiveFormsModule,HttpClientModule,TableModule,NgxChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
