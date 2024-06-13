@@ -1,14 +1,14 @@
 {
   "product": [
     {
-      "name": "Oppo",
-      "price": 200,
+      "name": "Oppo Reno 2",
+      "price": 20000,
       "category": "Electronics",
       "id": 1
     },
     {
-      "name": "TaTa",
-      "price": 500000,
+      "name": "Poco",
+      "price": 54000,
       "category": "Electronics",
       "id": 2
     },
@@ -23,6 +23,12 @@
       "price": 150000,
       "category": "Electronics",
       "id": 4
+    },
+    {
+      "name": "Sprite",
+      "price": 45,
+      "category": "Drink/Food",
+      "id": 5
     }
   ]
 }
