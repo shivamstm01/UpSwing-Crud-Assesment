@@ -8,6 +8,7 @@ import { EditDataComponent } from './Components/edit-data/edit-data.component';
 import { ReadDataComponent } from './Components/read-data/read-data.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductFilterPipe } from './Pipes/product-filter.pipe';
+import { TableModule } from 'primeng/table'; // Import TableModule from PrimeNG
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { ProductFilterPipe } from './Pipes/product-filter.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule,ReactiveFormsModule,HttpClientModule
+    AppRoutingModule,FormsModule,ReactiveFormsModule,HttpClientModule,TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
