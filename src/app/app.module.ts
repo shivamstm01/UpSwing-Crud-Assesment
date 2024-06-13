@@ -9,6 +9,7 @@ import { ReadDataComponent } from './Components/read-data/read-data.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductFilterPipe } from './Pipes/product-filter.pipe';
 import { TableModule } from 'primeng/table'; // Import TableModule from PrimeNG
+import { NgxChartsModule } from '@swimlane/ngx-charts'; // Import NgxChartsModule here
 
 @NgModule({
   declarations: [
